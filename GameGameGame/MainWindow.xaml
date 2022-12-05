@@ -17,8 +17,8 @@
                    Canvas.Top="300" Tag ="platform"/>
         <Rectangle Fill="Orange" Width="200" Height="50" Canvas.Left="170" 
                    Canvas.Top="450" Tag ="platform"/>
-        <Rectangle Fill="Green" Width="393" Height="10"
-                   Canvas.Top="570" Tag="platform"/>
+        <Rectangle Fill="Green" Width="393" Canvas.Left="0" Height="10"
+                   Canvas.Top="570" Tag ="platform"/>
         <Rectangle Tag="coin" Fill="Gold" Width="20" Height="20" Canvas.Top="100" Canvas.Left="233" 
                    RenderTransformOrigin="0.5,0.5">
             <Rectangle.RenderTransform>
