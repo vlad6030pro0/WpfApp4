@@ -18,8 +18,8 @@
         <Rectangle Fill="Orange" Width="200" Height="50" Canvas.Left="170" 
                    Canvas.Top="450" Tag ="platform"/>
         <Rectangle Fill="Green" Width="393" Height="10"
-                   Canvas.Top="570"/>
-        <Rectangle Fill="Gold" Width="20" Height="20" Canvas.Top="100" Canvas.Left="233" 
+                   Canvas.Top="570" Tag="platform"/>
+        <Rectangle Tag="coin" Fill="Gold" Width="20" Height="20" Canvas.Top="100" Canvas.Left="233" 
                    RenderTransformOrigin="0.5,0.5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
@@ -30,7 +30,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle Fill="Gold" Width="20" Height="20" Canvas.Top="243" Canvas.Left="138" 
+        <Rectangle Tag="coin" Fill="Gold" Width="20" Height="20" Canvas.Top="243" Canvas.Left="138" 
                    RenderTransformOrigin="0.5,0.5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
@@ -41,7 +41,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle Fill="Gold" Width="20" Height="20" Canvas.Top="515" Canvas.Left="30" 
+        <Rectangle Tag="coin" Fill="Gold" Width="20" Height="20" Canvas.Top="515" Canvas.Left="30" 
                    RenderTransformOrigin="0.5,0.5">
             <Rectangle.RenderTransform>
                 <TransformGroup>

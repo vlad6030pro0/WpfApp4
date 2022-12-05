@@ -26,6 +26,7 @@ namespace GameGameGame
         private bool bLeft;
         private bool bRight;
 
+        private int speed = 10;
         private int drop = 10;
 
         public MainWindow()
@@ -34,7 +35,7 @@ namespace GameGameGame
 
             DispatcherTimer timer = new DispatcherTimer();
             timer.Tick += Timer_Tick;
-            timer.Interval = TimeSpan.FromMilliseconds(20);
+            timer.Interval = TimeSpan.FromMilliseconds(15);
             timer.Start();
         }
 
@@ -46,26 +47,53 @@ namespace GameGameGame
 
             Rect playerCollision = new Rect(Canvas.GetLeft(player), y, player.Width, player.Height);
 
+            Rectangle rectangleForRemove = null;
 
             foreach (var rect in MyCanvas.Children.OfType<Rectangle>())
             {
                 if (rect.Tag != null)
                 {
+                    Rect rectCollision = new Rect(Canvas.GetLeft(rect), Canvas.GetTop(rect), rect.Width, rect.Height);
+
                     if (rect.Tag.ToString() == "platform")
                     {
-                        Rect rectCollision = new Rect(Canvas.GetLeft(rect), Canvas.GetTop(rect), rect.Width, rect.Height);
-
                         if (playerCollision.IntersectsWith(rectCollision))
                         {
                             drop = 0;
+
+                            Canvas.SetTop(player, Canvas.GetTop(rect) - player.Height);
+                        }
+                        else
+                        {
+                            drop = 10;
                         }
                     }
-                    else
+                    if (rect.Tag.ToString() == "coin")
                     {
-                        drop = 10;
+                        if (playerCollision.IntersectsWith(rectCollision))
+                        {
+                            //rect.Visibility = Visibility.Hidden;
+
+                            rectangleForRemove = rect;
+                        }
                     }
                 }
-                
+            }
+
+            if (rectangleForRemove != null)
+            {
+                MyCanvas.Children.Remove(rectangleForRemove);
+            }
+
+
+            if (bLeft)
+            {
+                Canvas.SetLeft(player, Canvas.GetLeft(player) - speed);
+            }
+
+            if (bRight)
+            {
+                Canvas.SetLeft(player, Canvas.GetLeft(player) + speed);
             }
         }
 
