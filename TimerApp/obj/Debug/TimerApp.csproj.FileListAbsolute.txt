@@ -1,0 +1,15 @@
+C:\Users\влад\source\repos\WpfApp4\TimerApp\bin\Debug\TimerApp.exe.config
+C:\Users\влад\source\repos\WpfApp4\TimerApp\bin\Debug\TimerApp.exe
+C:\Users\влад\source\repos\WpfApp4\TimerApp\bin\Debug\TimerApp.pdb
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\TimerApp.csprojAssemblyReference.cache
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\MainWindow.g.cs
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\App.g.cs
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\TimerApp_MarkupCompile.cache
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\TimerApp_MarkupCompile.lref
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\MainWindow.baml
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\TimerApp.g.resources
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\TimerApp.Properties.Resources.resources
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\TimerApp.csproj.GenerateResource.cache
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\TimerApp.csproj.CoreCompileInputs.cache
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\TimerApp.exe
+C:\Users\влад\source\repos\WpfApp4\TimerApp\obj\Debug\TimerApp.pdb

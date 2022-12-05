@@ -1,0 +1,15 @@
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\GameGameGame.csprojAssemblyReference.cache
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\MainWindow.g.cs
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\App.g.cs
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\GameGameGame_MarkupCompile.cache
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\GameGameGame_MarkupCompile.lref
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\bin\Debug\GameGameGame.exe.config
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\bin\Debug\GameGameGame.exe
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\bin\Debug\GameGameGame.pdb
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\MainWindow.baml
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\GameGameGame.g.resources
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\GameGameGame.Properties.Resources.resources
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\GameGameGame.csproj.GenerateResource.cache
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\GameGameGame.csproj.CoreCompileInputs.cache
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\GameGameGame.exe
+C:\Users\влад\source\repos\WpfApp4\GameGameGame\obj\Debug\GameGameGame.pdb
